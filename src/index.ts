@@ -8,4 +8,4 @@ import App from '~/components/App';
 //   }
 // }
 
-render(h(App), document.getElementById('root') as HTMLElement);
+render(h(App, null), document.getElementById('root') as HTMLElement);
